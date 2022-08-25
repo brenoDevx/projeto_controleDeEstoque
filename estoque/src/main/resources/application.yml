@@ -1,0 +1,14 @@
+server:
+  error:
+    include-stacktrace: on_param
+
+spring:
+  datasource:
+    url: jdbc:mysql://200.128.9.179:3306/projeto_estoque_breno?useSSL=false&createDatabaseIfNotExist=true&allowPublicKeyRetrieval=true
+    username: remoto
+    password: remoto
+  jpa:
+    hibernate:
+      ddl-auto: update
+# IP REMOTO : 200.128.9.179
+# IP LOCAL : 10.28.0.35
